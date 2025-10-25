@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+# conserva el lock (pequeño)
+!.terraform.lock.hcl
+
+# Variables locales / sensibles
+terraform.tfvars
+*.auto.tfvars
+
+# Comunes pesados
+node_modules/
+dist/
+build/
+.parcel-cache/
+coverage/
+cypress/screenshots/
+cypress/videos/
+.vscode/
+__pycache__/
+*.zip
+*.7z
+*.rar
